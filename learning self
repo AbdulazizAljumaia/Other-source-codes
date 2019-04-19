@@ -1,0 +1,37 @@
+
+database = []
+
+def DataBase(number):
+    for i in range(number):
+        Name = input("add a first name only: ")
+        Age = int(input("add age only: "))
+        
+        class className:
+            
+            def createName(self, name):
+                self.name = name
+            
+            def createAge(self2, age):
+                self2.age = age
+            
+            def displayName(self):
+                return self.name
+            
+            def displayAge(self2):
+                return age
+            
+            def saying(self):
+                print("hello %s" % self.name)
+                
+        
+        
+            
+        first = className()
+        owl = first.createName(str(Name))
+        thani = first.createAge(Age)
+
+
+        user = [first.name, first.age]
+        database.append(user)
+        
+DataBase(3)
