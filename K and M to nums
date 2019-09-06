@@ -1,0 +1,9 @@
+result = []
+units = {"K":1000,"M":1000000} 
+for n in x:
+        try:
+            result.append( float(n) )  #try to comber it to a number
+        except ValueError:
+            unit=n[-1]                 #get the letter
+            n = float( n[:-1] )        #convert all but the letter
+            result.append( n * units[unit] )
